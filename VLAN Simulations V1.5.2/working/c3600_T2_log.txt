@@ -1,1183 +1,921 @@
-Jan 31 15:18:08.631 VTTY: Console port: waiting connection on tcp port 2007 (FD 40)
-Jan 31 15:18:08.631 VTTY: AUX port: waiting connection on tcp port 2111 (FD 41)
-Jan 31 15:18:09.036 C3600_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x604f5184,JIT on)
-Jan 31 15:18:09.036 CPU0: CPU_STATE: Starting CPU (old state=2)...
-Jan 31 15:18:09.333 ROM: Microcode has started.
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.348 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.364 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.380 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.395 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.411 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.426 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
-Jan 31 15:18:09.520 ROM: unhandled syscall 0x00000047 at pc=0x604f2b0c (a1=0x62a8fecc,a2=0x00000000,a3=0x00000000)
-Jan 31 15:18:09.926 ROM: trying to read bootvar 'RANDOM_NUM'
-Jan 31 15:18:09.926 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:09.941 ROM: unhandled syscall 0x00000017 at pc=0x604f2b0c (a1=0xffffffff,a2=0x62a98650,a3=0x80007d4c)
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad25c: bus=0,device=0,function=0,reg=0x08
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=0,function=0,reg=0x00
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x0000011f) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x04
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x10
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x10000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x14
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=0,function=0,reg=0x00
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0xc0000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x28
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0xd0000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x2c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x30
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=0,function=0,reg=0x34
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000001) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x34
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x18
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x1c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000007) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x0c
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x40
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000007) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x04
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x0000f810) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x0c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00010100) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x18
-Jan 31 15:18:09.941 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 01, sub: 01
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0xffffffc0) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x1c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x4ef04e00) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x20
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x4e004ef0) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x24
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x3c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00080000) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x40
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00008020) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x44
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=3,function=0,reg=0x00
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=3,function=0,reg=0x40
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000007) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x04
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x0000f810) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x0c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00020200) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x18
-Jan 31 15:18:09.941 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 02, sub: 02
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0xffffbf80) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x1c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x4df04d00) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x20
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x4d004df0) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x24
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x3c
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00080000) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x40
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00008020) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x44
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x000001c3) at pc=0x605acf20: bus=0,device=20,function=0,reg=0x04
-Jan 31 15:18:09.941 CPU0: PCI: write request (data=0x00004403) at pc=0x605acf20: bus=0,device=20,function=0,reg=0x10
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:09.941 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:09.941 ROM: unhandled syscall 0x0000003e at pc=0x604f2b0c (a1=0x00002580,a2=0x00002580,a3=0x63960000)
-Jan 31 15:18:09.941 ROM: unhandled syscall 0x00000047 at pc=0x604f2b0c (a1=0x0000c100,a2=0x00000000,a3=0x63960000)
-Jan 31 15:18:23.654 CPU0: JIT: partial JIT flush (count=175)
-Jan 31 15:18:24.761 CPU0: JIT: flushing data structures (compiled pages=239)
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'BOOT'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'CONFIG_FILE'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'BOOTLDR'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'RSHELF'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'DSHELF'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'DSHELFINFO'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'RESET_COUNTER'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'CHRG_LOCRECSN'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'CHRG_ID'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'SLOTCACHE'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'OVERTEMP'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'DIAG'
-Jan 31 15:18:25.370 ROM: trying to read bootvar 'WARM_REBOOT'
-Jan 31 15:18:27.881 CPU0: JIT: partial JIT flush (count=174)
-Jan 31 15:18:30.720 CPU0: JIT: flushing data structures (compiled pages=247)
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:32.733 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:33.638 bootflash: flash_cmd(0): command 0xc3 not implemented
-Jan 31 15:18:33.638 bootflash: flash_cmd(1): command 0xc3 not implemented
-Jan 31 15:18:33.638 bootflash: flash_cmd(2): command 0xc3 not implemented
-Jan 31 15:18:33.638 bootflash: flash_cmd(3): command 0xc3 not implemented
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: CLPD6729: ext reg index 0x05 at pc=0x605b36c8
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: CLPD6729: ext reg index 0x06 at pc=0x605b36c8
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.527 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: CLPD6729: ext reg index 0x07 at pc=0x605b36c8
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: CLPD6729: ext reg index 0x05 at pc=0x605b36c8
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: CLPD6729: ext reg index 0x06 at pc=0x605b36c8
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: CLPD6729: ext reg index 0x07 at pc=0x605b36c8
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:34.542 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:37.085 CPU0: JIT: partial JIT flush (count=157)
-Jan 31 15:18:37.943 CPU0: PCI: read request at pc=0x605ad004: bus=2,device=0,function=0,reg=0x00
-Jan 31 15:18:37.943 CPU0: PCI: read request at pc=0x605ad004: bus=2,device=0,function=0,reg=0x00
-Jan 31 15:18:37.943 CPU0: PCI: write request (data=0x4d000000) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x14
-Jan 31 15:18:37.943 NM-1FE-TX(0): registers are mapped at 0x4d000000
-Jan 31 15:18:37.943 CPU0: PCI: write request (data=0x00000006) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x04
-Jan 31 15:18:37.943 CPU0: PCI: write request (data=0x00004000) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x0c
-Jan 31 15:18:37.943 CPU0: PCI: read request at pc=0x605ad004: bus=2,device=0,function=0,reg=0x00
-Jan 31 15:18:37.943 CPU0: PCI: write request (data=0x00004000) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x0c
-Jan 31 15:18:37.959 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:18:37.959 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:18:37.959 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:18:37.959 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:18:37.959 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:18:37.959 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:18:37.959 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:18:37.959 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:18:37.959 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:18:37.959 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:18:37.974 CPU0: JIT: flushing data structures (compiled pages=243)
-Jan 31 15:18:38.006 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:38.021 CPU0: JIT: partial JIT flush (count=197)
-Jan 31 15:18:38.068 CPU0: JIT: flushing data structures (compiled pages=252)
-Jan 31 15:18:38.099 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:18:38.099 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:18:38.099 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:18:38.099 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:18:38.099 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:18:38.115 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:18:38.115 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:18:38.115 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:18:38.115 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:18:38.115 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:18:38.115 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:18:38.115 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:18:38.115 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:18:38.115 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:18:38.115 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:18:38.349 CPU0: JIT: partial JIT flush (count=170)
-Jan 31 15:18:38.458 CPU0: JIT: flushing data structures (compiled pages=249)
-Jan 31 15:18:38.474 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:18:38.474 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:18:38.474 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:18:38.474 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:18:38.474 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:18:38.505 CPU0: JIT: partial JIT flush (count=201)
-Jan 31 15:18:38.552 CPU0: JIT: flushing data structures (compiled pages=249)
-Jan 31 15:18:38.630 CPU0: JIT: partial JIT flush (count=203)
-Jan 31 15:18:39.144 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:39.144 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:40.424 CPU0: JIT: flushing data structures (compiled pages=260)
-Jan 31 15:18:41.594 CPU0: JIT: partial JIT flush (count=192)
-Jan 31 15:18:43.388 CPU0: JIT: flushing data structures (compiled pages=251)
-Jan 31 15:18:46.071 CPU0: JIT: partial JIT flush (count=189)
-Jan 31 15:18:46.820 CPU0: JIT: flushing data structures (compiled pages=262)
-Jan 31 15:18:48.052 CPU0: JIT: partial JIT flush (count=108)
-Jan 31 15:18:48.395 CPU0: JIT: flushing data structures (compiled pages=260)
-Jan 31 15:18:50.049 CPU0: JIT: partial JIT flush (count=177)
-Jan 31 15:18:53.528 CPU0: JIT: flushing data structures (compiled pages=258)
-Jan 31 15:18:53.652 CPU0: JIT: partial JIT flush (count=183)
-Jan 31 15:18:53.871 ROM: trying to read bootvar 'PMDEBUG'
-Jan 31 15:18:53.871 ROM: trying to read bootvar 'MONDEBUG'
-Jan 31 15:18:54.292 CPU0: JIT: flushing data structures (compiled pages=260)
-Jan 31 15:18:56.850 CPU0: JIT: partial JIT flush (count=191)
-Jan 31 15:18:56.991 ROM: unhandled syscall 0x0000001a at pc=0x604f2b0c (a1=0x6443eac4,a2=0x63f50000,a3=0x00a894c8)
-Jan 31 15:18:56.991 ROM: unhandled syscall 0x00000009 at pc=0x604f2b0c (a1=0x00000000,a2=0x63f50000,a3=0x00a894c8)
-Jan 31 15:18:56.991 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.381 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
-Jan 31 15:18:57.802 CPU0: JIT: flushing data structures (compiled pages=261)
-Jan 31 15:18:59.066 CPU0: JIT: partial JIT flush (count=200)
-Jan 31 15:18:59.892 CPU0: JIT: flushing data structures (compiled pages=251)
-Jan 31 15:19:01.905 CPU0: JIT: partial JIT flush (count=182)
-Jan 31 15:19:04.151 CPU0: JIT: flushing data structures (compiled pages=254)
-Jan 31 15:19:04.806 ROM: trying to read bootvar 'RANDOM_NUM'
-Jan 31 15:19:05.352 CPU0: JIT: partial JIT flush (count=176)
-Jan 31 15:19:05.852 CPU0: JIT: flushing data structures (compiled pages=249)
-Jan 31 15:19:05.992 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:19:05.992 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:19:05.992 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:19:05.992 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:19:05.992 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:19:06.710 CPU0: JIT: partial JIT flush (count=189)
-Jan 31 15:19:07.412 CPU0: JIT: flushing data structures (compiled pages=253)
-Jan 31 15:19:08.098 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
-Jan 31 15:19:08.098 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
-Jan 31 15:19:08.114 NM-1FE-TX(0): fetching init block at address 0x07b237a0
-Jan 31 15:19:08.114 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
-Jan 31 15:19:08.114 NM-1FE-TX(0): CSR0 = 0x0101
-Jan 31 15:19:08.301 CPU0: JIT: partial JIT flush (count=207)
-Jan 31 15:19:08.675 CPU0: JIT: flushing data structures (compiled pages=247)
-Jan 31 15:19:09.455 CPU0: JIT: partial JIT flush (count=204)
-Jan 31 15:19:10.095 CPU0: JIT: flushing data structures (compiled pages=254)
-Jan 31 15:19:10.719 CPU0: JIT: partial JIT flush (count=194)
-Jan 31 15:19:11.499 CPU0: JIT: flushing data structures (compiled pages=254)
-Jan 31 15:19:11.749 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
-Jan 31 15:19:12.201 CPU0: JIT: partial JIT flush (count=175)
-Jan 31 15:19:12.731 CPU0: JIT: flushing data structures (compiled pages=253)
-Jan 31 15:19:13.418 CPU0: JIT: partial JIT flush (count=176)
-Jan 31 15:19:13.979 CPU0: JIT: flushing data structures (compiled pages=251)
-Jan 31 15:19:14.167 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:19:14.167 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
-Jan 31 15:19:14.369 CPU0: JIT: partial JIT flush (count=189)
-Jan 31 15:19:14.931 CPU0: JIT: flushing data structures (compiled pages=253)
-Jan 31 15:19:15.118 ROM: trying to set bootvar 'BSI=0'
-Jan 31 15:19:15.118 ROM: trying to read bootvar 'RET_2_RCALTS'
-Jan 31 15:19:15.134 ROM: trying to set bootvar 'RET_2_RCALTS='
-Jan 31 15:19:15.446 CPU0: JIT: partial JIT flush (count=193)
-Jan 31 15:19:20.469 CPU0: JIT: flushing data structures (compiled pages=258)
-Jan 31 15:19:30.141 CPU0: JIT: partial JIT flush (count=177)
-Jan 31 15:19:32.325 CPU0: JIT: flushing data structures (compiled pages=269)
-Jan 31 15:20:12.404 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 15:20:29.050 ROM: trying to set bootvar 'RANDOM_NUM=1750523886'
-Jan 31 15:20:29.050 CPU0: JIT: flushing data structures (compiled pages=290)
-Jan 31 15:20:35.227 CPU0: JIT: partial JIT flush (count=192)
-Jan 31 15:21:29.281 CPU0: JIT: flushing data structures (compiled pages=313)
-Jan 31 15:22:11.167 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 15:22:35.207 CPU0: JIT: flushing data structures (compiled pages=341)
-Jan 31 15:23:12.373 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 15:23:35.206 CPU0: JIT: flushing data structures (compiled pages=366)
-Jan 31 15:24:12.389 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 15:24:35.219 CPU0: JIT: flushing data structures (compiled pages=391)
-Jan 31 15:25:12.383 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 15:25:35.206 CPU0: JIT: flushing data structures (compiled pages=417)
-Jan 31 15:26:23.618 CPU0: JIT: partial JIT flush (count=144)
-Jan 31 15:26:35.205 CPU0: JIT: flushing data structures (compiled pages=441)
-Jan 31 15:27:27.665 CPU0: JIT: partial JIT flush (count=135)
-Jan 31 15:27:41.718 CPU0: JIT: flushing data structures (compiled pages=468)
-Jan 31 15:28:29.277 CPU0: JIT: partial JIT flush (count=142)
-Jan 31 15:28:53.145 CPU0: JIT: flushing data structures (compiled pages=495)
-Jan 31 15:29:35.203 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 15:30:12.386 CPU0: JIT: flushing data structures (compiled pages=526)
-Jan 31 15:30:35.209 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 15:31:12.400 CPU0: JIT: flushing data structures (compiled pages=552)
-Jan 31 15:31:35.260 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 15:32:12.386 CPU0: JIT: flushing data structures (compiled pages=576)
-Jan 31 15:32:35.240 CPU0: JIT: partial JIT flush (count=169)
-Jan 31 15:32:43.247 CPU0: JIT: flushing data structures (compiled pages=589)
-Jan 31 15:32:45.277 CPU0: JIT: partial JIT flush (count=202)
-Jan 31 15:33:10.004 CPU0: JIT: flushing data structures (compiled pages=601)
-Jan 31 15:33:35.205 CPU0: JIT: partial JIT flush (count=157)
-Jan 31 15:34:12.411 CPU0: JIT: flushing data structures (compiled pages=626)
-Jan 31 15:34:35.218 CPU0: JIT: partial JIT flush (count=162)
-Jan 31 15:35:12.377 CPU0: JIT: flushing data structures (compiled pages=651)
-Jan 31 15:35:35.246 CPU0: JIT: partial JIT flush (count=162)
-Jan 31 15:36:12.383 CPU0: JIT: flushing data structures (compiled pages=675)
-Jan 31 15:36:35.215 CPU0: JIT: partial JIT flush (count=163)
-Jan 31 15:37:12.372 CPU0: JIT: flushing data structures (compiled pages=700)
-Jan 31 15:37:35.215 CPU0: JIT: partial JIT flush (count=169)
-Jan 31 15:38:23.709 CPU0: JIT: flushing data structures (compiled pages=729)
-Jan 31 15:38:40.019 CPU0: JIT: partial JIT flush (count=180)
-Jan 31 15:39:23.643 CPU0: JIT: flushing data structures (compiled pages=755)
-Jan 31 15:39:36.794 CPU0: JIT: partial JIT flush (count=187)
-Jan 31 15:40:29.270 CPU0: JIT: flushing data structures (compiled pages=782)
-Jan 31 15:41:10.372 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 15:41:35.211 CPU0: JIT: flushing data structures (compiled pages=809)
-Jan 31 15:42:12.370 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 15:42:35.215 CPU0: JIT: flushing data structures (compiled pages=834)
-Jan 31 15:43:12.376 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 15:43:35.230 CPU0: JIT: flushing data structures (compiled pages=859)
-Jan 31 15:44:14.203 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 15:44:35.210 CPU0: JIT: flushing data structures (compiled pages=884)
-Jan 31 15:45:17.997 CPU0: JIT: partial JIT flush (count=143)
-Jan 31 15:45:35.215 CPU0: JIT: flushing data structures (compiled pages=908)
-Jan 31 15:46:13.083 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 15:46:35.219 CPU0: JIT: flushing data structures (compiled pages=934)
-Jan 31 15:47:12.397 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 15:47:35.220 CPU0: JIT: flushing data structures (compiled pages=958)
-Jan 31 15:48:23.649 CPU0: JIT: partial JIT flush (count=141)
-Jan 31 15:48:35.225 CPU0: JIT: flushing data structures (compiled pages=983)
-Jan 31 15:49:36.398 CPU0: JIT: partial JIT flush (count=135)
-Jan 31 15:49:41.343 CPU0: JIT: flushing data structures (compiled pages=1009)
-Jan 31 15:50:12.387 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 15:50:35.225 CPU0: JIT: flushing data structures (compiled pages=1033)
-Jan 31 15:51:12.398 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 15:51:35.206 CPU0: JIT: flushing data structures (compiled pages=1058)
-Jan 31 15:52:12.402 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 15:52:41.746 CPU0: JIT: flushing data structures (compiled pages=1085)
-Jan 31 15:53:35.063 CPU0: JIT: partial JIT flush (count=131)
-Jan 31 15:53:43.534 CPU0: JIT: flushing data structures (compiled pages=1109)
-Jan 31 15:54:35.217 CPU0: JIT: partial JIT flush (count=139)
-Jan 31 15:54:53.266 CPU0: JIT: flushing data structures (compiled pages=1138)
-Jan 31 15:55:35.230 CPU0: JIT: partial JIT flush (count=146)
-Jan 31 15:55:55.962 CPU0: JIT: flushing data structures (compiled pages=1165)
-Jan 31 15:56:35.212 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 15:57:10.156 CPU0: JIT: flushing data structures (compiled pages=1196)
-Jan 31 15:57:35.210 CPU0: JIT: partial JIT flush (count=168)
-Jan 31 15:57:53.255 CPU0: JIT: flushing data structures (compiled pages=1213)
-Jan 31 15:58:35.231 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 15:58:55.558 CPU0: JIT: flushing data structures (compiled pages=1240)
-Jan 31 15:59:35.229 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 15:59:53.278 CPU0: JIT: flushing data structures (compiled pages=1263)
-Jan 31 16:00:35.229 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 16:01:12.389 CPU0: JIT: flushing data structures (compiled pages=1296)
-Jan 31 16:01:35.227 CPU0: JIT: partial JIT flush (count=167)
-Jan 31 16:02:12.389 CPU0: JIT: flushing data structures (compiled pages=1321)
-Jan 31 16:02:35.234 CPU0: JIT: partial JIT flush (count=169)
-Jan 31 16:03:29.282 CPU0: JIT: flushing data structures (compiled pages=1352)
-Jan 31 16:03:41.746 CPU0: JIT: partial JIT flush (count=180)
-Jan 31 16:04:35.068 CPU0: JIT: flushing data structures (compiled pages=1379)
-Jan 31 16:04:43.526 CPU0: JIT: partial JIT flush (count=183)
-Jan 31 16:05:35.230 CPU0: JIT: flushing data structures (compiled pages=1405)
-Jan 31 16:06:12.390 CPU0: JIT: partial JIT flush (count=158)
-Jan 31 16:06:35.228 CPU0: JIT: flushing data structures (compiled pages=1430)
-Jan 31 16:07:12.382 CPU0: JIT: partial JIT flush (count=157)
-Jan 31 16:07:35.220 CPU0: JIT: flushing data structures (compiled pages=1455)
-Jan 31 16:08:22.208 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 16:08:40.186 CPU0: JIT: flushing data structures (compiled pages=1481)
-Jan 31 16:09:29.283 CPU0: JIT: partial JIT flush (count=144)
-Jan 31 16:09:41.756 CPU0: JIT: flushing data structures (compiled pages=1504)
-Jan 31 16:10:35.208 CPU0: JIT: partial JIT flush (count=132)
-Jan 31 16:10:43.522 CPU0: JIT: flushing data structures (compiled pages=1528)
-Jan 31 16:11:35.221 CPU0: JIT: partial JIT flush (count=134)
-Jan 31 16:11:53.255 CPU0: JIT: flushing data structures (compiled pages=1557)
-Jan 31 16:12:35.237 CPU0: JIT: partial JIT flush (count=144)
-Jan 31 16:13:12.381 CPU0: JIT: flushing data structures (compiled pages=1590)
-Jan 31 16:13:35.219 CPU0: JIT: partial JIT flush (count=161)
-Jan 31 16:14:12.384 CPU0: JIT: flushing data structures (compiled pages=1615)
-Jan 31 16:14:35.207 CPU0: JIT: partial JIT flush (count=161)
-Jan 31 16:15:12.384 CPU0: JIT: flushing data structures (compiled pages=1640)
-Jan 31 16:15:35.207 CPU0: JIT: partial JIT flush (count=161)
-Jan 31 16:16:12.395 CPU0: JIT: flushing data structures (compiled pages=1667)
-Jan 31 16:16:35.234 CPU0: JIT: partial JIT flush (count=160)
-Jan 31 16:17:12.393 CPU0: JIT: flushing data structures (compiled pages=1690)
-Jan 31 16:17:35.231 CPU0: JIT: partial JIT flush (count=164)
-Jan 31 16:18:12.393 CPU0: JIT: flushing data structures (compiled pages=1715)
-Jan 31 16:18:35.219 CPU0: JIT: partial JIT flush (count=161)
-Jan 31 16:19:12.405 CPU0: JIT: flushing data structures (compiled pages=1741)
-Jan 31 16:19:35.228 CPU0: JIT: partial JIT flush (count=161)
-Jan 31 16:20:12.387 CPU0: JIT: flushing data structures (compiled pages=1765)
-Jan 31 16:20:35.225 CPU0: JIT: partial JIT flush (count=160)
-Jan 31 16:21:12.400 CPU0: JIT: flushing data structures (compiled pages=1790)
-Jan 31 16:21:41.760 CPU0: JIT: partial JIT flush (count=157)
-Jan 31 16:22:35.225 CPU0: JIT: flushing data structures (compiled pages=1826)
-Jan 31 16:23:04.241 CPU0: JIT: partial JIT flush (count=164)
-Jan 31 16:23:35.207 CPU0: JIT: flushing data structures (compiled pages=1850)
-Jan 31 16:24:08.901 CPU0: JIT: partial JIT flush (count=154)
-Jan 31 16:24:35.234 CPU0: JIT: flushing data structures (compiled pages=1875)
-Jan 31 16:24:57.683 CPU0: JIT: partial JIT flush (count=162)
-Jan 31 16:25:35.232 CPU0: JIT: flushing data structures (compiled pages=1900)
-Jan 31 16:26:12.376 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 16:26:35.230 CPU0: JIT: flushing data structures (compiled pages=1925)
-Jan 31 16:27:12.389 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 16:27:35.220 CPU0: JIT: flushing data structures (compiled pages=1950)
-Jan 31 16:28:12.382 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 16:28:35.221 CPU0: JIT: flushing data structures (compiled pages=1975)
-Jan 31 16:29:12.396 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 16:29:35.218 CPU0: JIT: flushing data structures (compiled pages=2000)
-Jan 31 16:30:12.409 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 16:30:35.232 CPU0: JIT: flushing data structures (compiled pages=2025)
-Jan 31 16:31:12.391 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 16:31:35.214 CPU0: JIT: flushing data structures (compiled pages=2049)
-Jan 31 16:32:24.089 CPU0: JIT: partial JIT flush (count=143)
-Jan 31 16:32:41.748 CPU0: JIT: flushing data structures (compiled pages=2076)
-Jan 31 16:33:35.069 CPU0: JIT: partial JIT flush (count=131)
-Jan 31 16:33:43.508 CPU0: JIT: flushing data structures (compiled pages=2100)
-Jan 31 16:34:35.211 CPU0: JIT: partial JIT flush (count=134)
-Jan 31 16:34:53.264 CPU0: JIT: flushing data structures (compiled pages=2129)
-Jan 31 16:35:35.213 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 16:36:12.403 CPU0: JIT: flushing data structures (compiled pages=2162)
-Jan 31 16:36:35.211 CPU0: JIT: partial JIT flush (count=167)
-Jan 31 16:37:12.385 CPU0: JIT: flushing data structures (compiled pages=2187)
-Jan 31 16:37:35.239 CPU0: JIT: partial JIT flush (count=167)
-Jan 31 16:38:12.383 CPU0: JIT: flushing data structures (compiled pages=2212)
-Jan 31 16:38:35.237 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 16:39:12.415 CPU0: JIT: flushing data structures (compiled pages=2237)
-Jan 31 16:39:35.223 CPU0: JIT: partial JIT flush (count=170)
-Jan 31 16:40:12.398 CPU0: JIT: flushing data structures (compiled pages=2262)
-Jan 31 16:40:35.236 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 16:41:20.554 CPU0: JIT: flushing data structures (compiled pages=2291)
-Jan 31 16:41:41.771 CPU0: JIT: partial JIT flush (count=168)
-Jan 31 16:42:35.232 CPU0: JIT: flushing data structures (compiled pages=2323)
-Jan 31 16:42:54.794 CPU0: JIT: partial JIT flush (count=173)
-Jan 31 16:43:35.239 CPU0: JIT: flushing data structures (compiled pages=2348)
-Jan 31 16:44:12.395 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 16:44:35.249 CPU0: JIT: flushing data structures (compiled pages=2373)
-Jan 31 16:45:12.396 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 16:45:35.226 CPU0: JIT: flushing data structures (compiled pages=2397)
-Jan 31 16:46:12.402 CPU0: JIT: partial JIT flush (count=147)
-Jan 31 16:46:35.227 CPU0: JIT: flushing data structures (compiled pages=2423)
-Jan 31 16:47:12.410 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 16:47:35.248 CPU0: JIT: flushing data structures (compiled pages=2448)
-Jan 31 16:48:12.380 CPU0: JIT: partial JIT flush (count=146)
-Jan 31 16:48:35.242 CPU0: JIT: flushing data structures (compiled pages=2473)
-Jan 31 16:49:12.398 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 16:49:35.246 CPU0: JIT: flushing data structures (compiled pages=2498)
-Jan 31 16:50:12.425 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 16:50:35.245 CPU0: JIT: flushing data structures (compiled pages=2522)
-Jan 31 16:51:12.392 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 16:51:35.226 CPU0: JIT: flushing data structures (compiled pages=2547)
-Jan 31 16:52:12.383 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 16:52:35.246 CPU0: JIT: flushing data structures (compiled pages=2571)
-Jan 31 16:53:29.308 CPU0: JIT: partial JIT flush (count=134)
-Jan 31 16:53:41.740 CPU0: JIT: flushing data structures (compiled pages=2596)
-Jan 31 16:54:15.044 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 16:54:35.245 CPU0: JIT: flushing data structures (compiled pages=2618)
-Jan 31 16:55:12.411 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 16:55:35.225 CPU0: JIT: flushing data structures (compiled pages=2641)
-Jan 31 16:56:12.436 CPU0: JIT: partial JIT flush (count=150)
-Jan 31 16:56:35.230 CPU0: JIT: flushing data structures (compiled pages=2665)
-Jan 31 16:57:12.383 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 16:57:35.226 CPU0: JIT: flushing data structures (compiled pages=2689)
-Jan 31 16:58:12.393 CPU0: JIT: partial JIT flush (count=148)
-Jan 31 16:58:35.239 CPU0: JIT: flushing data structures (compiled pages=2713)
-Jan 31 16:59:12.403 CPU0: JIT: partial JIT flush (count=149)
-Jan 31 16:59:35.230 CPU0: JIT: flushing data structures (compiled pages=2737)
-Jan 31 17:00:29.284 CPU0: JIT: partial JIT flush (count=137)
-Jan 31 17:00:41.748 CPU0: JIT: flushing data structures (compiled pages=2763)
-Jan 31 17:01:35.053 CPU0: JIT: partial JIT flush (count=131)
-Jan 31 17:01:43.539 CPU0: JIT: flushing data structures (compiled pages=2788)
-Jan 31 17:02:35.285 CPU0: JIT: partial JIT flush (count=137)
-Jan 31 17:02:49.153 CPU0: JIT: flushing data structures (compiled pages=2815)
-Jan 31 17:03:35.228 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 17:03:53.282 CPU0: JIT: flushing data structures (compiled pages=2842)
-Jan 31 17:04:35.235 CPU0: JIT: partial JIT flush (count=151)
-Jan 31 17:05:06.002 CPU0: JIT: flushing data structures (compiled pages=2873)
-Jan 31 17:05:35.237 CPU0: JIT: partial JIT flush (count=163)
-Jan 31 17:06:12.384 CPU0: JIT: flushing data structures (compiled pages=2900)
-Jan 31 17:06:35.238 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 17:07:12.387 CPU0: JIT: flushing data structures (compiled pages=2925)
-Jan 31 17:07:35.240 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 17:08:12.398 CPU0: JIT: flushing data structures (compiled pages=2950)
-Jan 31 17:08:35.252 CPU0: JIT: partial JIT flush (count=166)
-Jan 31 17:09:12.412 CPU0: JIT: flushing data structures (compiled pages=2975)
-Jan 31 17:09:35.235 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:10:12.394 CPU0: JIT: flushing data structures (compiled pages=3001)
-Jan 31 17:10:35.236 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:11:20.875 CPU0: JIT: flushing data structures (compiled pages=3029)
-Jan 31 17:11:40.044 CPU0: JIT: partial JIT flush (count=172)
-Jan 31 17:12:39.598 CPU0: JIT: flushing data structures (compiled pages=3058)
-Jan 31 17:12:53.591 CPU0: JIT: partial JIT flush (count=189)
-Jan 31 17:13:45.220 CPU0: JIT: flushing data structures (compiled pages=3084)
-Jan 31 17:14:22.399 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 17:14:45.231 CPU0: JIT: flushing data structures (compiled pages=3107)
-Jan 31 17:15:22.406 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 17:15:45.228 CPU0: JIT: flushing data structures (compiled pages=3131)
-Jan 31 17:16:22.403 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:16:45.226 CPU0: JIT: flushing data structures (compiled pages=3155)
-Jan 31 17:17:22.385 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:17:45.224 CPU0: JIT: flushing data structures (compiled pages=3179)
-Jan 31 17:18:22.385 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:18:45.239 CPU0: JIT: flushing data structures (compiled pages=3203)
-Jan 31 17:19:22.387 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:19:45.255 CPU0: JIT: flushing data structures (compiled pages=3228)
-Jan 31 17:20:23.923 CPU0: JIT: partial JIT flush (count=147)
-Jan 31 17:20:44.624 CPU0: JIT: flushing data structures (compiled pages=3249)
-Jan 31 17:21:07.269 CPU0: JIT: partial JIT flush (count=168)
-Jan 31 17:21:28.874 CPU0: JIT: flushing data structures (compiled pages=3267)
-Jan 31 17:21:45.223 CPU0: JIT: partial JIT flush (count=172)
-Jan 31 17:22:22.413 CPU0: JIT: flushing data structures (compiled pages=3290)
-Jan 31 17:22:45.221 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:23:22.406 CPU0: JIT: flushing data structures (compiled pages=3315)
-Jan 31 17:23:45.260 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:24:22.395 CPU0: JIT: flushing data structures (compiled pages=3339)
-Jan 31 17:24:45.230 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:25:22.397 CPU0: JIT: flushing data structures (compiled pages=3365)
-Jan 31 17:25:45.231 CPU0: JIT: partial JIT flush (count=164)
-Jan 31 17:26:22.401 CPU0: JIT: flushing data structures (compiled pages=3390)
-Jan 31 17:26:45.252 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:27:22.387 CPU0: JIT: flushing data structures (compiled pages=3414)
-Jan 31 17:27:45.225 CPU0: JIT: partial JIT flush (count=165)
-Jan 31 17:28:39.294 CPU0: JIT: flushing data structures (compiled pages=3446)
-Jan 31 17:28:45.244 CPU0: JIT: partial JIT flush (count=194)
-Jan 31 17:29:44.625 CPU0: JIT: flushing data structures (compiled pages=3473)
-Jan 31 17:29:53.533 CPU0: JIT: partial JIT flush (count=183)
-Jan 31 17:30:44.622 CPU0: JIT: flushing data structures (compiled pages=3498)
-Jan 31 17:31:03.273 CPU0: JIT: partial JIT flush (count=172)
-Jan 31 17:31:44.615 CPU0: JIT: flushing data structures (compiled pages=3523)
-Jan 31 17:32:15.039 CPU0: JIT: partial JIT flush (count=163)
-Jan 31 17:32:45.231 CPU0: JIT: flushing data structures (compiled pages=3550)
-Jan 31 17:33:22.392 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:33:45.221 CPU0: JIT: flushing data structures (compiled pages=3574)
-Jan 31 17:34:22.392 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 17:34:45.247 CPU0: JIT: flushing data structures (compiled pages=3597)
-Jan 31 17:35:22.409 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 17:35:45.239 CPU0: JIT: flushing data structures (compiled pages=3621)
-Jan 31 17:36:22.392 CPU0: JIT: partial JIT flush (count=153)
-Jan 31 17:36:45.228 CPU0: JIT: flushing data structures (compiled pages=3646)
-Jan 31 17:37:22.415 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:37:45.253 CPU0: JIT: flushing data structures (compiled pages=3672)
-Jan 31 17:38:32.410 CPU0: JIT: partial JIT flush (count=143)
-Jan 31 17:38:45.243 CPU0: JIT: flushing data structures (compiled pages=3696)
-Jan 31 17:39:22.394 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:39:45.246 CPU0: JIT: flushing data structures (compiled pages=3722)
-Jan 31 17:40:22.411 CPU0: JIT: partial JIT flush (count=152)
-Jan 31 17:40:40.933 C3600_STOP: stopping simulation.
-Jan 31 17:40:40.933 CPU0: CPU_STATE: Halting CPU (old state=0)...
-Jan 31 17:40:41.011 VM: shutdown procedure engaged.
-Jan 31 17:40:41.011 VM_OBJECT: Shutdown of object "clpd6729"
-Jan 31 17:40:41.011 VM_OBJECT: Shutdown of object "ns16552"
-Jan 31 17:40:41.011 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
-Jan 31 17:40:41.011 VM_OBJECT: Shutdown of object "rom"
-Jan 31 17:40:41.011 DEVICE: Removal of device rom, fd=-1, host_addr=0x0, flags=2
-Jan 31 17:40:41.011 VM_OBJECT: Shutdown of object "ram"
-Jan 31 17:40:41.011 DEVICE: Removal of device ram, fd=44, host_addr=0x61960000, flags=34
-Jan 31 17:40:41.011 MMAP: unmapping of device 'ram', fd=44, host_addr=0x61960000, len=0x8000000
-Jan 31 17:40:41.028 VM_OBJECT: Shutdown of object "gt64010"
-Jan 31 17:40:41.028 DEVICE: Removal of device gt64010, fd=-1, host_addr=0x0, flags=0
-Jan 31 17:40:41.028 VM_OBJECT: Shutdown of object "io_fpga"
-Jan 31 17:40:41.028 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
-Jan 31 17:40:41.028 VM_OBJECT: Shutdown of object "zero"
-Jan 31 17:40:41.028 DEVICE: Removal of device zero, fd=-1, host_addr=0x0, flags=0
-Jan 31 17:40:41.028 VM_OBJECT: Shutdown of object "nvram"
-Jan 31 17:40:41.028 DEVICE: Removal of device nvram, fd=43, host_addr=0x7baf0000, flags=9
-Jan 31 17:40:41.028 MMAP: unmapping of device 'nvram', fd=43, host_addr=0x7baf0000, len=0x20000
-Jan 31 17:40:41.030 VM_OBJECT: Shutdown of object "bootflash"
-Jan 31 17:40:41.030 DEVICE: Removal of device bootflash, fd=42, host_addr=0x7bb10000, flags=1
-Jan 31 17:40:41.030 MMAP: unmapping of device 'bootflash', fd=42, host_addr=0x7bb10000, len=0x800000
-Jan 31 17:40:41.030 VM_OBJECT: Shutdown of object "remote_ctrl"
-Jan 31 17:40:41.030 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
-Jan 31 17:40:41.030 VM: removing PCI busses.
-Jan 31 17:40:41.030 DEVICE: Removal of device pci_io, fd=-1, host_addr=0x0, flags=0
-Jan 31 17:40:41.030 VM: deleting VTTY.
-Jan 31 17:40:41.030 VTTY: Console port: closing FD 40
-Jan 31 17:40:41.030 VTTY: AUX port: closing FD 41
-Jan 31 17:40:41.030 VM: deleting system CPUs.
-Jan 31 17:40:41.030 CPU0: CPU_STATE: Halting CPU (old state=1)...
-Jan 31 17:40:41.035 VM: shutdown procedure completed.
+Jan 31 18:20:46.885 VTTY: Console port: waiting connection on tcp port 2007 (FD 36)
+Jan 31 18:20:46.885 VTTY: AUX port: waiting connection on tcp port 2111 (FD 37)
+Jan 31 18:20:47.349 C3600_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x604f5184,JIT on)
+Jan 31 18:20:47.349 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Jan 31 18:20:48.610 ROM: Microcode has started.
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.629 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.630 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.631 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.632 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:48.633 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:49.083 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:49.096 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:49.110 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:49.587 CPU0: IO_FPGA: write to unknown addr 0x30006, value=0x0, pc=0x605a1188 (size=1)
+Jan 31 18:20:49.588 ROM: unhandled syscall 0x00000047 at pc=0x604f2b0c (a1=0x62a8fecc,a2=0x00000000,a3=0x00000000)
+Jan 31 18:20:51.345 ROM: trying to read bootvar 'RANDOM_NUM'
+Jan 31 18:20:51.350 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:51.361 ROM: unhandled syscall 0x00000017 at pc=0x604f2b0c (a1=0xffffffff,a2=0x62a98650,a3=0x80007d4c)
+Jan 31 18:20:51.362 CPU0: PCI: read request at pc=0x605ad25c: bus=0,device=0,function=0,reg=0x08
+Jan 31 18:20:51.362 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=0,function=0,reg=0x00
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x0000011f) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x04
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x10
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x10000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x14
+Jan 31 18:20:51.362 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=0,function=0,reg=0x00
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0xc0000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x28
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0xd0000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x2c
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x30
+Jan 31 18:20:51.362 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=0,function=0,reg=0x34
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x00000001) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x34
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x18
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x1c
+Jan 31 18:20:51.362 CPU0: PCI: write request (data=0x00000007) at pc=0x605acf2c: bus=0,device=0,function=0,reg=0x0c
+Jan 31 18:20:51.362 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:51.363 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x40
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00000007) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x04
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x0000f810) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x0c
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00010100) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x18
+Jan 31 18:20:51.363 PCI: PCI bridge 0,2,0 -> pri: 00, sec: 01, sub: 01
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0xffffffc0) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x1c
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x4ef04e00) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x20
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x4e004ef0) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x24
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x3c
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00080000) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x40
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00008020) at pc=0x605acf20: bus=0,device=2,function=0,reg=0x44
+Jan 31 18:20:51.363 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=3,function=0,reg=0x00
+Jan 31 18:20:51.363 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=3,function=0,reg=0x40
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00000007) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x04
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x0000f810) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x0c
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00020200) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x18
+Jan 31 18:20:51.363 PCI: PCI bridge 0,3,0 -> pri: 00, sec: 02, sub: 02
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0xffffbf80) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x1c
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x4df04d00) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x20
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x4d004df0) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x24
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00000000) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x3c
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00080000) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x40
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00008020) at pc=0x605acf20: bus=0,device=3,function=0,reg=0x44
+Jan 31 18:20:51.363 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x000001c3) at pc=0x605acf20: bus=0,device=20,function=0,reg=0x04
+Jan 31 18:20:51.363 CPU0: PCI: write request (data=0x00004403) at pc=0x605acf20: bus=0,device=20,function=0,reg=0x10
+Jan 31 18:20:51.363 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:51.363 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:51.365 ROM: unhandled syscall 0x0000003e at pc=0x604f2b0c (a1=0x00002580,a2=0x00002580,a3=0x63960000)
+Jan 31 18:20:51.365 ROM: unhandled syscall 0x00000047 at pc=0x604f2b0c (a1=0x0000c100,a2=0x00000000,a3=0x63960000)
+Jan 31 18:20:52.168 CPU0: JIT: partial JIT flush (count=175)
+Jan 31 18:20:52.226 CPU0: JIT: flushing data structures (compiled pages=239)
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'BOOT'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'CONFIG_FILE'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'BOOTLDR'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'RSHELF'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'DSHELF'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'DSHELFINFO'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'RESET_COUNTER'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'CHRG_ID'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'SLOTCACHE'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'OVERTEMP'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'DIAG'
+Jan 31 18:20:52.250 ROM: trying to read bootvar 'WARM_REBOOT'
+Jan 31 18:20:52.343 CPU0: JIT: partial JIT flush (count=177)
+Jan 31 18:20:52.511 CPU0: JIT: flushing data structures (compiled pages=247)
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.546 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.547 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.548 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.549 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.550 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.550 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.550 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.550 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.550 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.550 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.581 bootflash: flash_cmd(0): command 0xc3 not implemented
+Jan 31 18:20:52.581 bootflash: flash_cmd(1): command 0xc3 not implemented
+Jan 31 18:20:52.581 bootflash: flash_cmd(2): command 0xc3 not implemented
+Jan 31 18:20:52.581 bootflash: flash_cmd(3): command 0xc3 not implemented
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.632 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: CLPD6729: ext reg index 0x05 at pc=0x605b36c8
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.633 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: CLPD6729: ext reg index 0x06 at pc=0x605b36c8
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.634 CPU0: CLPD6729: ext reg index 0x07 at pc=0x605b36c8
+Jan 31 18:20:52.634 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.635 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: CLPD6729: ext reg index 0x05 at pc=0x605b36c8
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.636 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: CLPD6729: ext reg index 0x06 at pc=0x605b36c8
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.637 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: CLPD6729: ext reg index 0x07 at pc=0x605b36c8
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.638 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:20:52.790 CPU0: JIT: partial JIT flush (count=158)
+Jan 31 18:20:52.910 CPU0: PCI: read request at pc=0x605ad004: bus=2,device=0,function=0,reg=0x00
+Jan 31 18:20:52.910 CPU0: PCI: read request at pc=0x605ad004: bus=2,device=0,function=0,reg=0x00
+Jan 31 18:20:52.910 CPU0: PCI: write request (data=0x4d000000) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x14
+Jan 31 18:20:52.911 NM-1FE-TX(0): registers are mapped at 0x4d000000
+Jan 31 18:20:52.911 CPU0: PCI: write request (data=0x00000006) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x04
+Jan 31 18:20:52.911 CPU0: PCI: write request (data=0x00004000) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x0c
+Jan 31 18:20:52.911 CPU0: PCI: read request at pc=0x605ad004: bus=2,device=0,function=0,reg=0x00
+Jan 31 18:20:52.911 CPU0: PCI: write request (data=0x00004000) at pc=0x605acf20: bus=2,device=0,function=0,reg=0x0c
+Jan 31 18:20:52.927 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:20:52.927 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:20:52.927 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:20:52.927 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:20:52.927 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:20:52.933 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:20:52.933 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:20:52.933 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:20:52.933 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:20:52.933 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:20:52.946 CPU0: JIT: flushing data structures (compiled pages=243)
+Jan 31 18:20:52.975 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:53.003 CPU0: JIT: partial JIT flush (count=198)
+Jan 31 18:20:53.054 CPU0: JIT: flushing data structures (compiled pages=252)
+Jan 31 18:20:53.082 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:20:53.082 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:20:53.082 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:20:53.082 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:20:53.082 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:20:53.094 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:20:53.094 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:20:53.094 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:20:53.094 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:20:53.094 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:20:53.095 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:20:53.095 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:20:53.095 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:20:53.095 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:20:53.095 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:20:53.448 CPU0: JIT: partial JIT flush (count=173)
+Jan 31 18:20:53.631 CPU0: JIT: flushing data structures (compiled pages=249)
+Jan 31 18:20:53.643 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:20:53.643 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:20:53.643 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:20:53.643 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:20:53.643 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:20:53.686 CPU0: JIT: partial JIT flush (count=200)
+Jan 31 18:20:53.737 CPU0: JIT: flushing data structures (compiled pages=249)
+Jan 31 18:20:53.797 CPU0: JIT: partial JIT flush (count=203)
+Jan 31 18:20:53.804 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:53.805 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:20:53.845 CPU0: JIT: flushing data structures (compiled pages=260)
+Jan 31 18:20:53.895 CPU0: JIT: partial JIT flush (count=194)
+Jan 31 18:20:53.939 CPU0: JIT: flushing data structures (compiled pages=251)
+Jan 31 18:20:53.997 CPU0: JIT: partial JIT flush (count=190)
+Jan 31 18:20:55.113 CPU0: JIT: flushing data structures (compiled pages=262)
+Jan 31 18:20:58.584 CPU0: JIT: partial JIT flush (count=108)
+Jan 31 18:20:59.175 CPU0: JIT: flushing data structures (compiled pages=260)
+Jan 31 18:21:00.964 CPU0: JIT: partial JIT flush (count=177)
+Jan 31 18:21:07.187 CPU0: JIT: flushing data structures (compiled pages=258)
+Jan 31 18:21:07.321 CPU0: JIT: partial JIT flush (count=183)
+Jan 31 18:21:07.551 ROM: trying to read bootvar 'PMDEBUG'
+Jan 31 18:21:07.558 ROM: trying to read bootvar 'MONDEBUG'
+Jan 31 18:21:07.566 CPU0: JIT: flushing data structures (compiled pages=260)
+Jan 31 18:21:07.759 CPU0: JIT: partial JIT flush (count=191)
+Jan 31 18:21:07.779 ROM: unhandled syscall 0x0000001a at pc=0x604f2b0c (a1=0x6443eac4,a2=0x63f50000,a3=0x00a894c8)
+Jan 31 18:21:07.779 ROM: unhandled syscall 0x00000009 at pc=0x604f2b0c (a1=0x00000000,a2=0x63f50000,a3=0x00a894c8)
+Jan 31 18:21:07.780 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:21:07.783 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.784 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.784 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.784 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.784 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.785 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=20,function=0,reg=0x00
+Jan 31 18:21:07.839 CPU0: JIT: flushing data structures (compiled pages=261)
+Jan 31 18:21:07.902 CPU0: JIT: partial JIT flush (count=200)
+Jan 31 18:21:07.935 CPU0: JIT: flushing data structures (compiled pages=251)
+Jan 31 18:21:07.999 CPU0: JIT: partial JIT flush (count=182)
+Jan 31 18:21:08.220 CPU0: JIT: flushing data structures (compiled pages=252)
+Jan 31 18:21:08.237 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:21:08.237 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:21:08.237 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:21:08.237 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:21:08.237 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:21:08.288 CPU0: JIT: partial JIT flush (count=209)
+Jan 31 18:21:08.368 CPU0: JIT: flushing data structures (compiled pages=252)
+Jan 31 18:21:08.411 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f350 (size=1)
+Jan 31 18:21:08.411 CPU0: IO_FPGA: write to unknown addr 0x1000a, value=0x1, pc=0x6002f3d8 (size=1)
+Jan 31 18:21:08.411 CPU0: JIT: partial JIT flush (count=208)
+Jan 31 18:21:08.411 NM-1FE-TX(0): fetching init block at address 0x07b237a0
+Jan 31 18:21:08.411 NM-1FE-TX(0): rx_ring = 0x07b23800 (64), tx_ring = 0x07b23c40 (128)
+Jan 31 18:21:08.411 NM-1FE-TX(0): CSR0 = 0x0101
+Jan 31 18:21:08.452 CPU0: JIT: flushing data structures (compiled pages=246)
+Jan 31 18:21:08.509 CPU0: JIT: partial JIT flush (count=211)
+Jan 31 18:21:09.125 CPU0: JIT: flushing data structures (compiled pages=251)
+Jan 31 18:21:09.771 CPU0: JIT: partial JIT flush (count=205)
+Jan 31 18:21:11.058 CPU0: JIT: flushing data structures (compiled pages=255)
+Jan 31 18:21:12.870 ROM: trying to read bootvar 'RANDOM_NUM'
+Jan 31 18:21:13.471 CPU0: JIT: partial JIT flush (count=174)
+Jan 31 18:21:15.177 CPU0: JIT: flushing data structures (compiled pages=253)
+Jan 31 18:21:15.801 ROM: trying to read bootvar 'ROM_PERSISTENT_UTC'
+Jan 31 18:21:17.700 CPU0: JIT: partial JIT flush (count=178)
+Jan 31 18:21:19.601 CPU0: JIT: flushing data structures (compiled pages=254)
+Jan 31 18:21:21.865 CPU0: JIT: partial JIT flush (count=177)
+Jan 31 18:21:22.448 CPU0: JIT: flushing data structures (compiled pages=254)
+Jan 31 18:21:24.201 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:21:24.202 CPU0: PCI: read request at pc=0x605ad004: bus=0,device=2,function=0,reg=0x00
+Jan 31 18:21:24.212 CPU0: JIT: partial JIT flush (count=189)
+Jan 31 18:21:24.833 CPU0: JIT: flushing data structures (compiled pages=252)
+Jan 31 18:21:25.869 ROM: trying to set bootvar 'BSI=0'
+Jan 31 18:21:25.892 ROM: trying to read bootvar 'RET_2_RCALTS'
+Jan 31 18:21:25.892 ROM: trying to set bootvar 'RET_2_RCALTS='
+Jan 31 18:21:25.897 CPU0: JIT: partial JIT flush (count=190)
+Jan 31 18:21:29.462 CPU0: JIT: flushing data structures (compiled pages=256)
+Jan 31 18:21:44.522 CPU0: JIT: partial JIT flush (count=189)
+Jan 31 18:21:58.174 CPU0: JIT: flushing data structures (compiled pages=267)
+Jan 31 18:22:12.640 CPU0: JIT: partial JIT flush (count=182)
+Jan 31 18:22:40.437 CPU0: JIT: flushing data structures (compiled pages=281)
+Jan 31 18:23:03.237 ROM: trying to set bootvar 'RANDOM_NUM=1117965594'
+Jan 31 18:23:12.635 CPU0: JIT: partial JIT flush (count=162)
+Jan 31 18:23:18.931 CPU0: JIT: flushing data structures (compiled pages=297)
+Jan 31 18:23:40.413 CPU0: JIT: partial JIT flush (count=169)
+Jan 31 18:24:08.190 CPU0: JIT: flushing data structures (compiled pages=318)
+Jan 31 18:24:18.200 CPU0: JIT: partial JIT flush (count=191)
+Jan 31 18:24:48.849 CPU0: JIT: flushing data structures (compiled pages=335)
+Jan 31 18:25:12.659 CPU0: JIT: partial JIT flush (count=163)
+Jan 31 18:25:40.415 CPU0: JIT: flushing data structures (compiled pages=355)
+Jan 31 18:26:12.650 CPU0: JIT: partial JIT flush (count=155)
+Jan 31 18:26:25.886 C3600_STOP: stopping simulation.
+Jan 31 18:26:25.886 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Jan 31 18:26:25.950 VM: shutdown procedure engaged.
+Jan 31 18:26:25.950 VM_OBJECT: Shutdown of object "clpd6729"
+Jan 31 18:26:25.950 VM_OBJECT: Shutdown of object "ns16552"
+Jan 31 18:26:25.950 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Jan 31 18:26:25.950 VM_OBJECT: Shutdown of object "rom"
+Jan 31 18:26:25.950 DEVICE: Removal of device rom, fd=-1, host_addr=0x0, flags=2
+Jan 31 18:26:25.950 VM_OBJECT: Shutdown of object "ram"
+Jan 31 18:26:25.950 DEVICE: Removal of device ram, fd=40, host_addr=0x61960000, flags=34
+Jan 31 18:26:25.950 MMAP: unmapping of device 'ram', fd=40, host_addr=0x61960000, len=0x8000000
+Jan 31 18:26:25.967 VM_OBJECT: Shutdown of object "gt64010"
+Jan 31 18:26:25.967 DEVICE: Removal of device gt64010, fd=-1, host_addr=0x0, flags=0
+Jan 31 18:26:25.967 VM_OBJECT: Shutdown of object "io_fpga"
+Jan 31 18:26:25.967 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Jan 31 18:26:25.967 VM_OBJECT: Shutdown of object "zero"
+Jan 31 18:26:25.967 DEVICE: Removal of device zero, fd=-1, host_addr=0x0, flags=0
+Jan 31 18:26:25.967 VM_OBJECT: Shutdown of object "nvram"
+Jan 31 18:26:25.967 DEVICE: Removal of device nvram, fd=39, host_addr=0x7bb70000, flags=9
+Jan 31 18:26:25.967 MMAP: unmapping of device 'nvram', fd=39, host_addr=0x7bb70000, len=0x20000
+Jan 31 18:26:26.080 VM_OBJECT: Shutdown of object "bootflash"
+Jan 31 18:26:26.080 DEVICE: Removal of device bootflash, fd=38, host_addr=0x7bb90000, flags=1
+Jan 31 18:26:26.080 MMAP: unmapping of device 'bootflash', fd=38, host_addr=0x7bb90000, len=0x800000
+Jan 31 18:26:26.081 VM_OBJECT: Shutdown of object "remote_ctrl"
+Jan 31 18:26:26.082 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Jan 31 18:26:26.082 VM: removing PCI busses.
+Jan 31 18:26:26.082 DEVICE: Removal of device pci_io, fd=-1, host_addr=0x0, flags=0
+Jan 31 18:26:26.082 VM: deleting VTTY.
+Jan 31 18:26:26.082 VTTY: Console port: closing FD 36
+Jan 31 18:26:26.082 VTTY: AUX port: closing FD 37
+Jan 31 18:26:26.082 VM: deleting system CPUs.
+Jan 31 18:26:26.082 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Jan 31 18:26:26.086 VM: shutdown procedure completed.
