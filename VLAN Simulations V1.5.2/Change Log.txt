@@ -1,0 +1,10 @@
+Switch 3 added and VLANS 10 & 20 added off SW3. All connectivity still exists.
+
+VLAN's been sorted into Departments;
+
+VLAN 10 (192.168.1.1) = Engineering
+VLAN 20 (192.168.2.1) = Business & Law
+VLAN 30 (192.168.3.1) = Administration
+VLAN 40 (192.168.4.1) = Technology
+
+Next Iteration aims to add Address Control Lists (ACL).

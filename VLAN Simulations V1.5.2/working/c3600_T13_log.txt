@@ -1046,3 +1046,150 @@ Jan 31 16:47:06.895 CPU0: JIT: flushing data structures (compiled pages=2323)
 Jan 31 16:47:41.966 CPU0: JIT: partial JIT flush (count=149)
 Jan 31 16:48:06.892 CPU0: JIT: flushing data structures (compiled pages=2348)
 Jan 31 16:48:41.950 CPU0: JIT: partial JIT flush (count=148)
+Jan 31 16:49:06.907 CPU0: JIT: flushing data structures (compiled pages=2372)
+Jan 31 16:49:41.966 CPU0: JIT: partial JIT flush (count=151)
+Jan 31 16:50:06.996 CPU0: JIT: flushing data structures (compiled pages=2396)
+Jan 31 16:50:41.941 CPU0: JIT: partial JIT flush (count=151)
+Jan 31 16:51:06.907 CPU0: JIT: flushing data structures (compiled pages=2420)
+Jan 31 16:51:41.952 CPU0: JIT: partial JIT flush (count=151)
+Jan 31 16:52:06.895 CPU0: JIT: flushing data structures (compiled pages=2445)
+Jan 31 16:52:41.949 CPU0: JIT: partial JIT flush (count=150)
+Jan 31 16:53:06.894 CPU0: JIT: flushing data structures (compiled pages=2469)
+Jan 31 16:53:41.944 CPU0: JIT: partial JIT flush (count=152)
+Jan 31 16:54:12.545 CPU0: JIT: flushing data structures (compiled pages=2496)
+Jan 31 16:54:41.964 CPU0: JIT: partial JIT flush (count=158)
+Jan 31 16:54:53.750 VTTY: Console port is now connected (accept_fd=40,conn_fd=53)
+Jan 31 16:54:55.056 CPU0: JIT: flushing data structures (compiled pages=2514)
+Jan 31 16:55:01.711 CPU0: JIT: partial JIT flush (count=170)
+Jan 31 16:55:01.878 CPU0: JIT: flushing data structures (compiled pages=2514)
+Jan 31 16:55:03.988 CPU0: JIT: partial JIT flush (count=194)
+Jan 31 16:55:05.729 CPU0: JIT: flushing data structures (compiled pages=2517)
+Jan 31 16:55:07.778 CPU0: JIT: partial JIT flush (count=200)
+Jan 31 16:55:09.750 CPU0: JIT: flushing data structures (compiled pages=2521)
+Jan 31 16:55:10.063 CPU0: JIT: partial JIT flush (count=206)
+Jan 31 16:55:13.889 CPU0: JIT: flushing data structures (compiled pages=2523)
+Jan 31 16:55:21.108 CPU0: JIT: partial JIT flush (count=179)
+Jan 31 16:55:21.882 CPU0: JIT: flushing data structures (compiled pages=2526)
+Jan 31 16:55:23.884 CPU0: JIT: partial JIT flush (count=192)
+Jan 31 16:55:47.568 CPU0: JIT: flushing data structures (compiled pages=2539)
+Jan 31 16:56:19.975 CPU0: JIT: partial JIT flush (count=151)
+Jan 31 16:56:51.322 CPU0: JIT: flushing data structures (compiled pages=2564)
+Jan 31 16:57:41.778 CPU0: JIT: partial JIT flush (count=139)
+Jan 31 16:58:06.928 CPU0: JIT: flushing data structures (compiled pages=2594)
+Jan 31 16:58:41.782 CPU0: JIT: partial JIT flush (count=147)
+Jan 31 16:59:01.402 CPU0: JIT: flushing data structures (compiled pages=2616)
+Jan 31 16:59:41.954 CPU0: JIT: partial JIT flush (count=143)
+Jan 31 17:00:07.011 CPU0: JIT: flushing data structures (compiled pages=2644)
+Jan 31 17:00:41.935 CPU0: JIT: partial JIT flush (count=155)
+Jan 31 17:01:08.202 CPU0: JIT: flushing data structures (compiled pages=2669)
+Jan 31 17:01:41.948 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:02:06.970 CPU0: JIT: flushing data structures (compiled pages=2692)
+Jan 31 17:02:41.977 CPU0: JIT: partial JIT flush (count=148)
+Jan 31 17:03:06.946 CPU0: JIT: flushing data structures (compiled pages=2717)
+Jan 31 17:03:41.936 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:04:06.947 CPU0: JIT: flushing data structures (compiled pages=2743)
+Jan 31 17:04:41.929 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:05:06.938 CPU0: JIT: flushing data structures (compiled pages=2768)
+Jan 31 17:05:41.929 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:06:06.940 CPU0: JIT: flushing data structures (compiled pages=2792)
+Jan 31 17:06:41.962 CPU0: JIT: partial JIT flush (count=147)
+Jan 31 17:07:06.940 CPU0: JIT: flushing data structures (compiled pages=2818)
+Jan 31 17:07:41.948 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:08:06.954 CPU0: JIT: flushing data structures (compiled pages=2843)
+Jan 31 17:08:41.945 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:09:06.920 CPU0: JIT: flushing data structures (compiled pages=2868)
+Jan 31 17:09:41.958 CPU0: JIT: partial JIT flush (count=148)
+Jan 31 17:10:06.918 CPU0: JIT: flushing data structures (compiled pages=2892)
+Jan 31 17:10:41.944 CPU0: JIT: partial JIT flush (count=148)
+Jan 31 17:11:06.929 CPU0: JIT: flushing data structures (compiled pages=2917)
+Jan 31 17:11:41.931 CPU0: JIT: partial JIT flush (count=149)
+Jan 31 17:12:06.929 CPU0: JIT: flushing data structures (compiled pages=2942)
+Jan 31 17:12:45.588 CPU0: JIT: partial JIT flush (count=157)
+Jan 31 17:13:19.908 CPU0: JIT: flushing data structures (compiled pages=2973)
+Jan 31 17:13:41.941 CPU0: JIT: partial JIT flush (count=166)
+Jan 31 17:14:19.917 CPU0: JIT: flushing data structures (compiled pages=2998)
+Jan 31 17:14:41.970 CPU0: JIT: partial JIT flush (count=168)
+Jan 31 17:15:19.925 CPU0: JIT: flushing data structures (compiled pages=3023)
+Jan 31 17:15:41.952 CPU0: JIT: partial JIT flush (count=168)
+Jan 31 17:16:19.939 CPU0: JIT: flushing data structures (compiled pages=3048)
+Jan 31 17:16:41.950 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:17:19.921 CPU0: JIT: flushing data structures (compiled pages=3074)
+Jan 31 17:17:41.932 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:18:19.920 CPU0: JIT: flushing data structures (compiled pages=3099)
+Jan 31 17:18:41.932 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:19:19.906 CPU0: JIT: flushing data structures (compiled pages=3124)
+Jan 31 17:19:41.930 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:20:21.490 CPU0: JIT: flushing data structures (compiled pages=3148)
+Jan 31 17:20:58.198 CPU0: JIT: partial JIT flush (count=152)
+Jan 31 17:21:41.775 CPU0: JIT: flushing data structures (compiled pages=3180)
+Jan 31 17:22:01.478 CPU0: JIT: partial JIT flush (count=166)
+Jan 31 17:22:19.902 CPU0: JIT: flushing data structures (compiled pages=3197)
+Jan 31 17:22:41.960 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:23:27.742 CPU0: JIT: flushing data structures (compiled pages=3224)
+Jan 31 17:24:01.261 CPU0: JIT: partial JIT flush (count=150)
+Jan 31 17:24:34.423 CPU0: JIT: flushing data structures (compiled pages=3250)
+Jan 31 17:25:06.929 CPU0: JIT: partial JIT flush (count=154)
+Jan 31 17:25:34.409 CPU0: JIT: flushing data structures (compiled pages=3274)
+Jan 31 17:26:06.942 CPU0: JIT: partial JIT flush (count=154)
+Jan 31 17:26:41.929 CPU0: JIT: flushing data structures (compiled pages=3301)
+Jan 31 17:27:06.927 CPU0: JIT: partial JIT flush (count=160)
+Jan 31 17:27:34.414 CPU0: JIT: flushing data structures (compiled pages=3323)
+Jan 31 17:27:57.346 CPU0: JIT: partial JIT flush (count=161)
+Jan 31 17:28:34.407 CPU0: JIT: flushing data structures (compiled pages=3347)
+Jan 31 17:29:01.320 CPU0: JIT: partial JIT flush (count=156)
+Jan 31 17:29:34.408 CPU0: JIT: flushing data structures (compiled pages=3371)
+Jan 31 17:30:06.938 CPU0: JIT: partial JIT flush (count=154)
+Jan 31 17:30:41.940 CPU0: JIT: flushing data structures (compiled pages=3398)
+Jan 31 17:31:06.936 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:31:41.947 CPU0: JIT: flushing data structures (compiled pages=3423)
+Jan 31 17:32:06.921 CPU0: JIT: partial JIT flush (count=163)
+Jan 31 17:32:41.937 CPU0: JIT: flushing data structures (compiled pages=3448)
+Jan 31 17:33:06.927 CPU0: JIT: partial JIT flush (count=165)
+Jan 31 17:33:41.960 CPU0: JIT: flushing data structures (compiled pages=3473)
+Jan 31 17:34:06.909 CPU0: JIT: partial JIT flush (count=165)
+Jan 31 17:34:41.948 CPU0: JIT: flushing data structures (compiled pages=3498)
+Jan 31 17:35:06.909 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:35:41.961 CPU0: JIT: flushing data structures (compiled pages=3523)
+Jan 31 17:36:06.924 CPU0: JIT: partial JIT flush (count=165)
+Jan 31 17:36:41.949 CPU0: JIT: flushing data structures (compiled pages=3548)
+Jan 31 17:37:06.923 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:37:41.955 CPU0: JIT: flushing data structures (compiled pages=3573)
+Jan 31 17:38:08.872 CPU0: JIT: partial JIT flush (count=159)
+Jan 31 17:38:41.952 CPU0: JIT: flushing data structures (compiled pages=3598)
+Jan 31 17:39:06.910 CPU0: JIT: partial JIT flush (count=164)
+Jan 31 17:39:41.962 CPU0: JIT: flushing data structures (compiled pages=3623)
+Jan 31 17:40:06.920 CPU0: JIT: partial JIT flush (count=158)
+Jan 31 17:40:41.953 CPU0: JIT: flushing data structures (compiled pages=3648)
+Jan 31 17:40:43.226 C3600_STOP: stopping simulation.
+Jan 31 17:40:43.226 CPU0: CPU_STATE: Halting CPU (old state=0)...
+Jan 31 17:40:43.288 VM: shutdown procedure engaged.
+Jan 31 17:40:43.288 VM_OBJECT: Shutdown of object "clpd6729"
+Jan 31 17:40:43.288 VM_OBJECT: Shutdown of object "ns16552"
+Jan 31 17:40:43.288 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Jan 31 17:40:43.288 VM_OBJECT: Shutdown of object "rom"
+Jan 31 17:40:43.288 DEVICE: Removal of device rom, fd=-1, host_addr=0x0, flags=2
+Jan 31 17:40:43.288 VM_OBJECT: Shutdown of object "ram"
+Jan 31 17:40:43.288 DEVICE: Removal of device ram, fd=44, host_addr=0x50fb0000, flags=34
+Jan 31 17:40:43.288 MMAP: unmapping of device 'ram', fd=44, host_addr=0x50fb0000, len=0x8000000
+Jan 31 17:40:43.303 VM_OBJECT: Shutdown of object "gt64010"
+Jan 31 17:40:43.303 DEVICE: Removal of device gt64010, fd=-1, host_addr=0x0, flags=0
+Jan 31 17:40:43.303 VM_OBJECT: Shutdown of object "io_fpga"
+Jan 31 17:40:43.303 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Jan 31 17:40:43.303 VM_OBJECT: Shutdown of object "zero"
+Jan 31 17:40:43.303 DEVICE: Removal of device zero, fd=-1, host_addr=0x0, flags=0
+Jan 31 17:40:43.303 VM_OBJECT: Shutdown of object "nvram"
+Jan 31 17:40:43.303 DEVICE: Removal of device nvram, fd=43, host_addr=0x78960000, flags=9
+Jan 31 17:40:43.303 MMAP: unmapping of device 'nvram', fd=43, host_addr=0x78960000, len=0x20000
+Jan 31 17:40:43.397 VM_OBJECT: Shutdown of object "bootflash"
+Jan 31 17:40:43.397 DEVICE: Removal of device bootflash, fd=42, host_addr=0x78980000, flags=1
+Jan 31 17:40:43.397 MMAP: unmapping of device 'bootflash', fd=42, host_addr=0x78980000, len=0x800000
+Jan 31 17:40:43.397 VM_OBJECT: Shutdown of object "remote_ctrl"
+Jan 31 17:40:43.397 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Jan 31 17:40:43.397 VM: removing PCI busses.
+Jan 31 17:40:43.397 DEVICE: Removal of device pci_io, fd=-1, host_addr=0x0, flags=0
+Jan 31 17:40:43.397 VM: deleting VTTY.
+Jan 31 17:40:43.397 VTTY: Console port: closing FD 40
+Jan 31 17:40:43.397 VTTY: AUX port: closing FD 41
+Jan 31 17:40:43.397 VM: deleting system CPUs.
+Jan 31 17:40:43.397 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Jan 31 17:40:43.402 VM: shutdown procedure completed.
