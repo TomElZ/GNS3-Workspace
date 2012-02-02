@@ -1,0 +1,7 @@
+Standard IP Access Control lists assigned to R1 for VLAN 30.
+
+VLAN 20 (Business & Law) can't communicate with VLAN 30 (Administration) at all. However because of this, Hosts on VLAN 30 can't communicate with VLAN 20 either.
+
+Could use Extended IP Access Control Lists however for now the the one ACL is sufficient.
+
+Next Iteration - Try to create a WAN Network.

@@ -1,0 +1,660 @@
+autostart = False
+[127.0.0.1:7202]
+    workingdir = working
+    udp = 10200
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T8]]
+        model = 3640
+        console = 2017
+        aux = 2100
+        cnfg = configs\T8.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/8
+        symbol = Terminal
+        x = 2.5
+        y = 252.5
+    [[ROUTER T7]]
+        model = 3640
+        console = 2015
+        aux = 2101
+        cnfg = configs\T7.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/7
+        symbol = Terminal
+        x = -184.5
+        y = 243.5
+[127.0.0.1:7203]
+    workingdir = working
+    udp = 10300
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T10]]
+        model = 3640
+        console = 2020
+        aux = 2103
+        cnfg = configs\T10.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/2
+        symbol = Terminal
+        x = 597.5
+        y = -279.5
+    [[ROUTER T11]]
+        model = 3640
+        console = 2023
+        aux = 2104
+        cnfg = configs\T11.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/3
+        symbol = Terminal
+        x = 596.5
+        y = -195.5
+    [[ROUTER T9]]
+        model = 3640
+        console = 2019
+        aux = 2102
+        cnfg = configs\T9.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/1
+        symbol = Terminal
+        x = 601.5
+        y = -371.5
+    [[ROUTER SW2]]
+        model = 3640
+        console = 2018
+        aux = 2105
+        cnfg = configs\SW2.cfg
+        slot0 = NM-16ESW
+        f0/0 = SW1 f0/9
+        f0/1 = T9 f0/0
+        f0/2 = T10 f0/0
+        f0/3 = T11 f0/0
+        f0/4 = T12 f0/0
+        f0/5 = T13 f0/0
+        f0/6 = T14 f0/0
+        f0/7 = T15 f0/0
+        f0/8 = T16 f0/0
+        symbol = Ethernet Switch
+        x = 215.5
+        y = -38.0
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10000
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R1]]
+        model = 3640
+        console = 2004
+        aux = 2110
+        cnfg = configs\R1.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/0
+        slot1 = NM-4T
+        x = -65.0
+        y = -166.0
+    [[ROUTER T2]]
+        model = 3640
+        console = 2007
+        aux = 2111
+        cnfg = configs\T2.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/2
+        symbol = Terminal
+        x = 275.5
+        y = 248.5
+    [[ROUTER T1]]
+        model = 3640
+        console = 2006
+        aux = 2112
+        cnfg = configs\T1.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/1
+        symbol = Terminal
+        x = -459.5
+        y = 249.5
+    [[ROUTER SW1]]
+        model = 3640
+        console = 2001
+        aux = 2113
+        cnfg = configs\SW1.cfg
+        slot0 = NM-16ESW
+        f0/0 = R1 f0/0
+        f0/1 = T1 f0/0
+        f0/2 = T2 f0/0
+        f0/3 = T3 f0/0
+        f0/4 = T4 f0/0
+        f0/5 = T5 f0/0
+        f0/6 = T6 f0/0
+        f0/7 = T7 f0/0
+        f0/8 = T8 f0/0
+        f0/9 = SW2 f0/0
+        f0/10 = SW3 f0/0
+        symbol = Ethernet Switch
+        x = -65.5
+        y = -34.0
+        hx = 18.0
+        hy = -24.0
+[127.0.0.1:7201]
+    workingdir = working
+    udp = 10100
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T6]]
+        model = 3640
+        console = 2013
+        aux = 2104
+        cnfg = configs\T6.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/6
+        symbol = Terminal
+        x = 93.5
+        y = 249.5
+    [[ROUTER T4]]
+        model = 3640
+        console = 2009
+        aux = 2105
+        cnfg = configs\T4.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/4
+        symbol = Terminal
+        x = 182.5
+        y = 250.5
+    [[ROUTER T5]]
+        model = 3640
+        console = 2011
+        aux = 2106
+        cnfg = configs\T5.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/5
+        symbol = Terminal
+        x = -284.5
+        y = 246.5
+    [[ROUTER T3]]
+        model = 3640
+        console = 2005
+        aux = 2107
+        cnfg = configs\T3.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/3
+        symbol = Terminal
+        x = -372.5
+        y = 249.5
+[127.0.0.1:7206]
+    workingdir = working
+    udp = 10600
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T17]]
+        model = 3640
+        console = 2028
+        aux = 2114
+        cnfg = configs\T17.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/1
+        symbol = Terminal
+        x = -726.5
+        y = -369.5
+    [[ROUTER T18]]
+        model = 3640
+        console = 2029
+        aux = 2115
+        cnfg = configs\T18.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/2
+        symbol = Terminal
+        x = -726.5
+        y = -285.5
+        hx = 15.0
+        hy = -23.0
+    [[ROUTER T19]]
+        model = 3640
+        console = 2030
+        aux = 2116
+        cnfg = configs\T19.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/3
+        symbol = Terminal
+        x = -726.5
+        y = -203.5
+        hx = 15.0
+        hy = -19.0
+    [[ROUTER SW3]]
+        model = 3640
+        console = 2027
+        aux = 2117
+        cnfg = configs\SW3.cfg
+        slot0 = NM-16ESW
+        f0/0 = SW1 f0/10
+        f0/1 = T17 f0/0
+        f0/2 = T18 f0/0
+        f0/3 = T19 f0/0
+        f0/4 = T20 f0/0
+        f0/5 = T21 f0/0
+        f0/6 = T22 f0/0
+        f0/7 = T23 f0/0
+        f0/8 = T24 f0/0
+        symbol = Ethernet Switch
+        x = -373.5
+        y = -32.0
+[127.0.0.1:7207]
+    workingdir = working
+    udp = 10700
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T21]]
+        model = 3640
+        console = 2032
+        aux = 2118
+        cnfg = configs\T21.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/5
+        symbol = Terminal
+        x = -732.5
+        y = 22.5
+    [[ROUTER T20]]
+        model = 3640
+        console = 2031
+        aux = 2119
+        cnfg = configs\T20.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/4
+        symbol = Terminal
+        x = -726.5
+        y = -115.5
+        hx = 13.0
+        hy = -23.0
+    [[ROUTER T23]]
+        model = 3640
+        console = 2034
+        aux = 2120
+        cnfg = configs\T23.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/7
+        symbol = Terminal
+        x = -734.5
+        y = 188.5
+    [[ROUTER T22]]
+        model = 3640
+        console = 2033
+        aux = 2121
+        cnfg = configs\T22.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/6
+        symbol = Terminal
+        x = -734.5
+        y = 106.5
+[127.0.0.1:7204]
+    workingdir = working
+    udp = 10400
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T12]]
+        model = 3640
+        console = 2021
+        aux = 2114
+        cnfg = configs\T12.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/4
+        symbol = Terminal
+        x = 599.5
+        y = -113.5
+[127.0.0.1:7205]
+    workingdir = working
+    udp = 10500
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T14]]
+        model = 3640
+        console = 2024
+        aux = 2115
+        cnfg = configs\T14.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/6
+        symbol = Terminal
+        x = 597.5
+        y = 120.5
+        hx = 13.0
+        hy = -27.0
+    [[ROUTER T15]]
+        model = 3640
+        console = 2025
+        aux = 2116
+        cnfg = configs\T15.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/7
+        symbol = Terminal
+        x = 599.5
+        y = 206.5
+        hx = 17.0
+        hy = -27.0
+    [[ROUTER T16]]
+        model = 3640
+        console = 2026
+        aux = 2117
+        cnfg = configs\T16.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/8
+        symbol = Terminal
+        x = 601.5
+        y = 288.5
+    [[ROUTER T13]]
+        model = 3640
+        console = 2022
+        aux = 2118
+        cnfg = configs\T13.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW2 f0/5
+        symbol = Terminal
+        x = 595.5
+        y = 32.5
+[127.0.0.1:7208]
+    workingdir = working
+    udp = 10800
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T24]]
+        model = 3640
+        console = 2035
+        aux = 2127
+        cnfg = configs\T24.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW3 f0/8
+        symbol = Terminal
+        x = -738.5
+        y = 270.5
+[GNS3-DATA]
+    configs = configs
+    workdir = working
+    m11 = 0.5
+    m22 = 0.5
+    [[NOTE 1]]
+        text = Engineering
+        x = -300.0
+        y = 384.0
+        color = "#282828"
+    [[NOTE 2]]
+        text = .9
+        x = -766.0
+        y = 294.0
+        color = "#282828"
+    [[NOTE 3]]
+        text = VLAN 10
+        x = -866.0
+        y = -212.0
+        color = "#282828"
+    [[NOTE 4]]
+        text = Tom Elsworthy - VLAN Simulations V1.5.3
+        x = -184.0
+        y = -272.0
+        color = "#282828"
+    [[NOTE 5]]
+        text = 192.168.2.1
+        x = -882.0
+        y = 144.0
+        color = "#282828"
+    [[NOTE 6]]
+        text = .8
+        x = -752.0
+        y = -186.0
+        color = "#282828"
+    [[NOTE 7]]
+        text = .5
+        x = 667.0
+        y = 310.0
+        color = "#282828"
+    [[NOTE 8]]
+        text = 192.168.4.1
+        x = 761.0
+        y = 172.0
+        color = "#282828"
+    [[NOTE 9]]
+        text = VLAN 10
+        x = -293.0
+        y = 351.0
+        color = "#282828"
+    [[NOTE 10]]
+        text = .2
+        x = 679.0
+        y = -340.0
+        color = "#282828"
+    [[NOTE 11]]
+        text = .4
+        x = 669.0
+        y = 230.0
+        color = "#282828"
+    [[NOTE 12]]
+        text = VLAN 20
+        x = 147.0
+        y = 357.0
+        color = "#282828"
+    [[NOTE 13]]
+        text = .3
+        x = 669.0
+        y = 144.0
+        color = "#282828"
+    [[NOTE 14]]
+        text = .8
+        x = -762.0
+        y = 214.0
+        color = "#282828"
+    [[NOTE 15]]
+        text = .4
+        x = 71.0
+        y = 277.0
+        color = "#282828"
+    [[NOTE 16]]
+        text = VLAN 40
+        x = 771.0
+        y = 200.0
+        color = "#282828"
+    [[NOTE 17]]
+        text = 192.168.2.1
+        x = 139.0
+        y = 333.0
+        color = "#282828"
+    [[NOTE 18]]
+        text = .7
+        x = -760.0
+        y = 126.0
+        color = "#282828"
+    [[NOTE 19]]
+        text = .2
+        x = 253.0
+        y = 275.0
+        color = "#282828"
+    [[NOTE 20]]
+        text = .5
+        x = -213.0
+        y = 270.0
+        color = "#282828"
+    [[NOTE 21]]
+        text = 192.168.1.1
+        x = -876.0
+        y = -244.0
+        color = "#282828"
+    [[NOTE 22]]
+        text = .4
+        x = 676.0
+        y = -162.0
+        color = "#282828"
+    [[NOTE 23]]
+        text = .2
+        x = 671.0
+        y = 60.0
+        color = "#282828"
+    [[NOTE 24]]
+        text = .7
+        x = -752.0
+        y = -266.0
+        color = "#282828"
+    [[NOTE 25]]
+        text = Administration
+        x = 756.0
+        y = -164.0
+        color = "#282828"
+    [[NOTE 26]]
+        text = .5
+        x = 670.0
+        y = -86.0
+        color = "#282828"
+    [[NOTE 27]]
+        text = Business & Law
+        x = -892.0
+        y = 206.0
+        color = "#282828"
+    [[NOTE 28]]
+        text = .9
+        x = -754.0
+        y = -94.0
+        color = "#282828"
+    [[NOTE 29]]
+        text = Technology
+        x = 764.0
+        y = 234.0
+        color = "#282828"
+    [[NOTE 30]]
+        text = .2
+        x = -482.0
+        y = 269.0
+        color = "#282828"
+    [[NOTE 31]]
+        text = VLAN 20
+        x = -872.0
+        y = 172.0
+        color = "#282828"
+    [[NOTE 32]]
+        text = Engineering
+        x = -876.0
+        y = -176.0
+        color = "#282828"
+    [[NOTE 33]]
+        text = .6
+        x = -760.0
+        y = 50.0
+        color = "#282828"
+    [[NOTE 34]]
+        text = 192.168.3.1
+        x = 761.0
+        y = -222.0
+        color = "#282828"
+    [[NOTE 35]]
+        text = .3
+        x = 162.0
+        y = 276.0
+        color = "#282828"
+    [[NOTE 36]]
+        text = .3
+        x = -400.0
+        y = 269.0
+        color = "#282828"
+    [[NOTE 37]]
+        text = 192.168.1.1
+        x = -304.0
+        y = 325.0
+        color = "#282828"
+    [[NOTE 38]]
+        text = .5
+        x = -22.0
+        y = 277.0
+        color = "#282828"
+    [[NOTE 39]]
+        text = .4
+        x = -315.0
+        y = 266.0
+        color = "#282828"
+    [[NOTE 40]]
+        text = VLAN 30
+        x = 772.0
+        y = -197.0
+        color = "#282828"
+    [[NOTE 41]]
+        text = .3
+        x = 676.0
+        y = -251.0
+        color = "#282828"
+    [[NOTE 42]]
+        text = .6
+        x = -748.0
+        y = -356.0
+        color = "#282828"
+    [[NOTE 43]]
+        text = Business & Law
+        x = 128.0
+        y = 388.0
+        color = "#282828"
+    [[SHAPE 1]]
+        type = rectangle
+        x = -904.0
+        y = 200.0
+        width = 132.0
+        height = 32.0
+        z = -2.0
+    [[SHAPE 2]]
+        type = rectangle
+        x = -326.0
+        y = 378.0
+        width = 132.0
+        height = 32.0
+        z = -2.0
+    [[SHAPE 3]]
+        type = rectangle
+        x = -208.0
+        y = -286.0
+        width = 322.0
+        height = 48.0
+        z = -2.0
+    [[SHAPE 4]]
+        type = rectangle
+        x = 742.0
+        y = -168.0
+        width = 132.0
+        height = 32.0
+        z = -2.0
+    [[SHAPE 5]]
+        type = rectangle
+        x = 118.0
+        y = 384.0
+        width = 132.0
+        height = 32.0
+        z = -2.0
+    [[SHAPE 6]]
+        type = rectangle
+        x = -898.0
+        y = -180.0
+        width = 132.0
+        height = 32.0
+        z = -2.0
+    [[SHAPE 7]]
+        type = rectangle
+        x = 738.0
+        y = 228.0
+        width = 132.0
+        height = 32.0
+        z = -2.0
