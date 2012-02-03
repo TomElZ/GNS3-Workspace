@@ -1,0 +1,10 @@
+WAN Network set up from R1 to R2. VLAN's alo set up off SW4. Different IP addresses for the VLAN's as I couldn't keep the same structure from the R1 LAN due to having no NAT in place.
+
+VLAN 30 = 192.168.12.x
+VLAN 40 = 192.168.11.x
+
+The VLAN's follow the structure above now.
+
+V1.5.5 will just be for making sure everything is working and set up correctly and all looks aestheticly pleasing.
+
+V1.5.6 is to be decided on what to implement next.
