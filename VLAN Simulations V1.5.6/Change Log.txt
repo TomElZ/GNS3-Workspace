@@ -1,0 +1,5 @@
+Access Control List added that only allows VLAN 30 (Administration) to communicate with each other.
+
+All other Hosts will not be able to communicate with VLAN 30.
+
+Experimented with DHCP Server.

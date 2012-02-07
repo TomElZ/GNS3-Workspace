@@ -1,0 +1,33 @@
+Jan 26 17:26:32.595 C3600_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x0,JIT on)
+Jan 26 17:26:32.596 C3600_STOP: stopping simulation.
+Jan 26 17:26:32.596 CPU0: CPU_STATE: Halting CPU (old state=2)...
+Jan 26 17:26:32.646 VM: shutdown procedure engaged.
+Jan 26 17:26:32.646 VM_OBJECT: Shutdown of object "clpd6729"
+Jan 26 17:26:32.646 VM_OBJECT: Shutdown of object "ns16552"
+Jan 26 17:26:32.646 DEVICE: Removal of device ns16552, fd=-1, host_addr=0x0, flags=0
+Jan 26 17:26:32.646 VM_OBJECT: Shutdown of object "rom"
+Jan 26 17:26:32.646 DEVICE: Removal of device rom, fd=-1, host_addr=0x0, flags=2
+Jan 26 17:26:32.646 VM_OBJECT: Shutdown of object "ram"
+Jan 26 17:26:32.647 DEVICE: Removal of device ram, fd=33, host_addr=0x69ae0000, flags=2
+Jan 26 17:26:32.647 MMAP: unmapping of device 'ram', fd=33, host_addr=0x69ae0000, len=0x8000000
+Jan 26 17:26:32.676 VM_OBJECT: Shutdown of object "gt64010"
+Jan 26 17:26:32.676 DEVICE: Removal of device gt64010, fd=-1, host_addr=0x0, flags=0
+Jan 26 17:26:32.676 VM_OBJECT: Shutdown of object "io_fpga"
+Jan 26 17:26:32.676 DEVICE: Removal of device io_fpga, fd=-1, host_addr=0x0, flags=0
+Jan 26 17:26:32.676 VM_OBJECT: Shutdown of object "zero"
+Jan 26 17:26:32.676 DEVICE: Removal of device zero, fd=-1, host_addr=0x0, flags=0
+Jan 26 17:26:32.676 VM_OBJECT: Shutdown of object "nvram"
+Jan 26 17:26:32.676 DEVICE: Removal of device nvram, fd=32, host_addr=0x7d440000, flags=9
+Jan 26 17:26:32.676 MMAP: unmapping of device 'nvram', fd=32, host_addr=0x7d440000, len=0x20000
+Jan 26 17:26:32.699 VM_OBJECT: Shutdown of object "bootflash"
+Jan 26 17:26:32.699 DEVICE: Removal of device bootflash, fd=31, host_addr=0x7d460000, flags=1
+Jan 26 17:26:32.699 MMAP: unmapping of device 'bootflash', fd=31, host_addr=0x7d460000, len=0x800000
+Jan 26 17:26:32.703 VM_OBJECT: Shutdown of object "remote_ctrl"
+Jan 26 17:26:32.703 DEVICE: Removal of device remote_ctrl, fd=-1, host_addr=0x0, flags=0
+Jan 26 17:26:32.703 VM: removing PCI busses.
+Jan 26 17:26:32.703 DEVICE: Removal of device pci_io, fd=-1, host_addr=0x0, flags=0
+Jan 26 17:26:32.703 VM: deleting VTTY.
+Jan 26 17:26:32.703 VM: deleting system CPUs.
+Jan 26 17:26:32.703 CPU0: CPU_STATE: Halting CPU (old state=1)...
+Jan 26 17:26:32.703 VM: shutdown procedure completed.
+Jan 26 17:26:32.704 VM: trying to shutdown an inactive VM.

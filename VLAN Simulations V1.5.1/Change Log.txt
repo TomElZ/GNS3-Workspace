@@ -1,0 +1,3 @@
+Switch 2 Implemented succesfully - VLAN's 30 & 40 set up and all hosts can communicate with each other.
+
+Routing capabilities of the Hosts have been removed and the connection between all the hosts is still fine.

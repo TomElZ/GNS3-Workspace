@@ -1,0 +1,3 @@
+Added some address related comments to help identify each Host and their IP Address.
+
+V.1.4 Attempt to add more switches and run the VLAN's across 2-3 switches as opposed to just 1.

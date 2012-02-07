@@ -1,0 +1,84 @@
+autostart = False
+[127.0.0.1:7200]
+    workingdir = working
+    udp = 10000
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R1]]
+        model = 3640
+        console = 2004
+        aux = 2110
+        cnfg = configs\R1.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/0
+        x = -65.0
+        y = -166.0
+    [[ROUTER T2]]
+        model = 3640
+        console = 2007
+        aux = 2111
+        cnfg = configs\T2.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/2
+        symbol = Terminal
+        x = 141.5
+        y = 27.5
+    [[ROUTER T1]]
+        model = 3640
+        console = 2006
+        aux = 2112
+        cnfg = configs\T1.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/1
+        symbol = Terminal
+        x = -232.5
+        y = 33.5
+    [[ROUTER SW1]]
+        model = 3640
+        console = 2001
+        aux = 2113
+        cnfg = configs\SW1.cfg
+        slot0 = NM-16ESW
+        f0/0 = R1 f0/0
+        f0/1 = T1 f0/0
+        f0/2 = T2 f0/0
+        f0/3 = T3 f0/0
+        f0/4 = T4 f0/0
+        slot1 = NM-1FE-TX
+        symbol = Ethernet Switch
+        x = -65.5
+        y = -34.0
+        hx = 18.0
+        hy = -24.0
+[127.0.0.1:7201]
+    workingdir = working
+    udp = 10100
+    [[3640]]
+        image = C:\Users\Tom Elsworthy\Documents\Cisco IOS's\C3640-JK.image
+        idlepc = 0x604f5184
+        ghostios = True
+        chassis = 3640
+    [[ROUTER T4]]
+        model = 3640
+        console = 2009
+        cnfg = configs\T4.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/4
+        symbol = Terminal
+        x = 144.5
+        y = 117.5
+    [[ROUTER T3]]
+        model = 3640
+        console = 2005
+        cnfg = configs\T3.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = SW1 f0/3
+        symbol = Terminal
+        x = -235.5
+        y = 131.5
+[GNS3-DATA]
+    configs = configs
+    workdir = working

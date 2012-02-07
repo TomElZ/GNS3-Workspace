@@ -1,0 +1,11 @@
+DHCP Server removed but fully implemented within R2.
+
+All Library Users are automatically assigned an IP Address from R2 following the structure;
+
+192.168.102.x
+
+Switch/Host my need to be refreshed in order for the Host to obtain an IP Address from the DHCP Server.
+
+Full communication still exists which is what I want. 
+
+Version 1.5.8 will probably look at some sort of Authentication being put in place.
